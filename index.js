@@ -1,5 +1,10 @@
 module.exports = function das(_command, _data, _dsKey, _aKey) {
 
+  _command = typeof _command !== 'undefined' ? _command : "nothing"; 
+  _data = typeof _data !== 'undefined' ? _data : "nothing"; 
+  _dsKey = typeof _dsKey !== 'undefined' ? _dsKey : "nothing"; 
+  _aKey = typeof _aKey !== 'undefined' ? _aKey : "nothing"; 
+
   var request = require('request');
   var _dasUrl = 'https://dasdata.co/' 
   var _dasSendURL = _dasUrl + 'a/?d=' + _data + '&s=' + _dsKey + '&a=' + _aKey;   // ?d={DATA|ELEMENTS}&s={DS_KEY}&a={USR_KEY}'
