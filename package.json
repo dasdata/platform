@@ -1,0 +1,19 @@
+{
+    "name": "@dasdata/platform",
+    "version": "1.0.4",
+    "description": "Get your data together",
+    "license": "MIT",
+    "repository": "dasdata/platform",
+    "main": "index.js",
+    "dependencies": {
+    "request": "^2.88.0"
+  },
+    "keywords": [
+      "dasdata",
+      "data",
+      "package",
+      "platform",
+      "IoT",
+      "forms"
+    ]
+    }
